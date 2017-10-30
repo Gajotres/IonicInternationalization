@@ -1,17 +1,19 @@
 <ion-header>
 	<ion-navbar>
-		<ion-title>Ionic Blank</ion-title>
+		<ion-title>{{ 'PAGE_TITLE' | translate }}</ion-title>
 	</ion-navbar>
 </ion-header>
 
 <ion-content padding>
+	<h2>{{ 'IN_APP' | translate }}</h2>
+	{{ 'FOO' | translate:bar }}
 	<!-- Segment in content -->
 	<ion-segment [(ngModel)]="relationship" color="primary" (ionChange)="segmentChanged($event)">
-		<ion-segment-button value="friends">
-			Friends
+		<ion-segment-button value="en">
+			{{ 'BUTTONS.btn_eng' | translate }}
 		</ion-segment-button>
-		<ion-segment-button value="enemies">
-			Enemies
+		<ion-segment-button value="hr">
+			{{ 'BUTTONS.btn_cro' | translate }}
 		</ion-segment-button>
 	</ion-segment>
 </ion-content>

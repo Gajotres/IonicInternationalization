@@ -1,0 +1,9 @@
+{
+    "PAGE_TITLE" : "Translation tutorial",	
+	"BUTTONS" : {
+		"btn_eng" : "English",
+		"btn_cro" : "Croatian"
+	},
+	"IN_APP" : "Internal app translation",
+	"FOO": "Foo {{test}}"
+}

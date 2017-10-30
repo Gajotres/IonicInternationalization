@@ -1,0 +1,9 @@
+{
+    "PAGE_TITLE" : "Uputstva za prijevod",	
+	"BUTTONS" : {
+		"btn_eng" : "Engleski",
+		"btn_cro" : "Hrvatski"
+	},
+	"IN_APP" : "Prijevod unutar aplikacije",
+	"FOO": "Bu {{test}}"
+}
